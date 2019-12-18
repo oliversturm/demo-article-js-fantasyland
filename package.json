@@ -1,0 +1,19 @@
+{
+  "name": "demo-article-js-fantasyland",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fluture": "^12.0.2",
+    "fluture-sanctuary-types": "^5.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "sanctuary": "^2.0.1",
+    "sanctuary-def": "^0.20.1"
+  }
+}

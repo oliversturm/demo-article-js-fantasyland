@@ -1,0 +1,142 @@
+dependencies:
+  fluture: 12.0.2
+  fluture-sanctuary-types: 5.0.0_4062b3ece8c143ec553d2deab5f57632
+  isomorphic-fetch: 2.2.1
+  sanctuary: 2.0.1
+  sanctuary-def: 0.20.1
+lockfileVersion: 5.1
+packages:
+  /concurrify/2.0.0:
+    dependencies:
+      sanctuary-show: 1.0.0
+      sanctuary-type-identifiers: 2.0.1
+    dev: false
+    engines:
+      node: '>=6.0.0'
+    resolution:
+      integrity: sha512-QAfqvDk7rRJXDJI78TI0umxVRohRcpiLa3VKWcUzmhIOsl5yP714Lrg9R+S8dDUnEV1HuBrENVN9RgmCQYL/Zw==
+  /encoding/0.1.12:
+    dependencies:
+      iconv-lite: 0.4.24
+    dev: false
+    resolution:
+      integrity: sha1-U4tm8+5izRq1HsMjgp0flIDHS+s=
+  /fluture-sanctuary-types/5.0.0_4062b3ece8c143ec553d2deab5f57632:
+    dependencies:
+      fluture: 12.0.2
+      sanctuary-def: 0.20.1
+      sanctuary-type-identifiers: 2.0.1
+    dev: false
+    peerDependencies:
+      fluture: '>=12.0.0-beta.5 <13.0.0'
+      sanctuary-def: '>=0.20.0 <0.21.0'
+    resolution:
+      integrity: sha512-FmQ7HQt2DLxGgC7F4nk30jwDub1cR+wvZ3ocl3oFP8pqGyFecfqya0IySSsQ47cEPeuks0MHQ+ZGc/Hlv2Nb/Q==
+  /fluture/12.0.2:
+    dependencies:
+      concurrify: 2.0.0
+      sanctuary-show: 1.0.0
+      sanctuary-type-identifiers: 2.0.1
+    dev: false
+    engines:
+      node: '>=4.0.0'
+    resolution:
+      integrity: sha512-/nj2gdj+hDQ4OHURjXk1COd7+XknxBqlgDqhQ+Yp9uZhe6wm6SxYd4S+qJ43aZIFk5YvL4naxqoomojwz9Gosg==
+  /iconv-lite/0.4.24:
+    dependencies:
+      safer-buffer: 2.1.2
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==
+  /is-stream/1.1.0:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-EtSj3U5o4Lec6428hBc66A2RykQ=
+  /isomorphic-fetch/2.2.1:
+    dependencies:
+      node-fetch: 1.7.3
+      whatwg-fetch: 3.0.0
+    dev: false
+    resolution:
+      integrity: sha1-YRrhrPFPXoH3KVB0coGf6XM1WKk=
+  /node-fetch/1.7.3:
+    dependencies:
+      encoding: 0.1.12
+      is-stream: 1.1.0
+    dev: false
+    resolution:
+      integrity: sha512-NhZ4CsKx7cYm2vSrBAr2PvFOe6sWDf0UYLRqA6svUYg7+/TSfVAu49jYC4BvQ4Sms9SZgdqGBgroqfDhJdTyKQ==
+  /safer-buffer/2.1.2:
+    dev: false
+    resolution:
+      integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
+  /sanctuary-def/0.20.1:
+    dependencies:
+      sanctuary-either: 1.2.0
+      sanctuary-show: 1.0.0
+      sanctuary-type-classes: 11.0.0
+      sanctuary-type-identifiers: 2.0.1
+    dev: false
+    resolution:
+      integrity: sha512-WdOg5uDpqvplADyUb7pyDMNaT73TUzsE7VdKnZsEz6CwsNh46NSQAWZXM0i6IiqItnDtILkL5RGd4SGAvmjxLw==
+  /sanctuary-either/1.2.0:
+    dependencies:
+      sanctuary-show: 1.0.0
+      sanctuary-type-classes: 11.0.0
+    dev: false
+    resolution:
+      integrity: sha512-CFUK0OOGAe+t+Ct4yVLfkJPABIkplCvIgCOFIJZ+lIMNAeJrSaVacrZVqRErt4YKzDs42ZXecAEpoDL8rRAfsQ==
+  /sanctuary-maybe/1.2.0:
+    dependencies:
+      sanctuary-show: 1.0.0
+      sanctuary-type-classes: 11.0.0
+    dev: false
+    resolution:
+      integrity: sha512-SH4dkyrruJe84/q8YMjc6kWyGbqPH6clM6yfJ/iosQZm+bGK2XPgcPs1yDN0U0zm1JzJ563zdwn64W+aMw5CDw==
+  /sanctuary-pair/1.2.0:
+    dependencies:
+      sanctuary-show: 1.0.0
+      sanctuary-type-classes: 11.0.0
+    dev: false
+    resolution:
+      integrity: sha512-bPu+uFxFE2RP3hLlC6SRMsm4A2aEwHkDwHWuvGzHxYaclGnHCrHy0ykRTuR0Pgqy/ZlWl6zy+8Tek3jME3du6A==
+  /sanctuary-show/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-63UqNGr5M6wkzKp6eGc/Gy6JBIV2PbzPd3q88+0F9z0qydAQsCWJ+7e4oor39rEEwj2GkZMDEhqGuiMl9eEnYw==
+  /sanctuary-type-classes/11.0.0:
+    dependencies:
+      sanctuary-type-identifiers: 2.0.1
+    dev: false
+    resolution:
+      integrity: sha512-J9vfS19C9TSd0pIxz7dza0krxUGoo7LYdwQzkmO7zEsbzmPEwbB3HByLgN/zI+QYd0m08IdohAzYJSAd89Fdqg==
+  /sanctuary-type-identifiers/2.0.1:
+    dev: false
+    resolution:
+      integrity: sha1-/FJM9t2Szr/LsN2VCe/xkxWaIO0=
+  /sanctuary/2.0.1:
+    dependencies:
+      sanctuary-def: 0.20.1
+      sanctuary-either: 1.2.0
+      sanctuary-maybe: 1.2.0
+      sanctuary-pair: 1.2.0
+      sanctuary-show: 1.0.0
+      sanctuary-type-classes: 11.0.0
+      sanctuary-type-identifiers: 2.0.1
+    dev: false
+    resolution:
+      integrity: sha512-CQWjFRzSYrq8g16RCdfV4v1iJwyRRw3dhLizA/rKkKSu1L+5tTlBjQuZl25mKSd4S5oLdVTIJ1RlVktvns9R9g==
+  /whatwg-fetch/3.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-9GSJUgz1D4MfyKU7KRqwOjXCXTqWdFNvEr7eUBYchQiVc744mqK/MzXPNR2WsPkmkOa4ywfg8C2n8h+13Bey1Q==
+specifiers:
+  fluture: ^12.0.2
+  fluture-sanctuary-types: ^5.0.0
+  isomorphic-fetch: ^2.2.1
+  sanctuary: ^2.0.1
+  sanctuary-def: ^0.20.1
